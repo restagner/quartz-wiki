@@ -10,6 +10,6 @@ echo "Building Quartz..."
 npx quartz build
 
 echo "Deploying to Cloudflare Pages..."
-wrangler pages deploy public/ --project-name=second-brain-wiki
+wrangler pages deploy public/ --project-name=second-brain-wiki --branch=main
 
 echo "Done. Visit https://second-brain-wiki.pages.dev"
